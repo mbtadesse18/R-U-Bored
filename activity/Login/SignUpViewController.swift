@@ -15,16 +15,24 @@ import Foundation
 
 class SignUpViewController: UIViewController {
  
-    @IBOutlet weak var usernameField: UILabel!
     @IBOutlet weak var emailField: UITextField!
+    
+    @IBOutlet weak var usernameField: UITextField!
+    
     @IBOutlet weak var passwordField: UITextField!
+    
+    
     
     override func viewDidLoad() {
         super.viewDidLoad()
 
     }
+       
     
-    @IBAction func onSignUpTapped(_ sender: Any) {
+    
+    @IBAction func onSignUpTapped(_ sender: Any) 
+    
+    {
         
         // Make sure all fields are non-nil and non-empty.
         guard let username = usernameField.text,
