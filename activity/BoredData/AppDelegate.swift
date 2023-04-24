@@ -8,14 +8,21 @@
 
 import UIKit
 import CoreData
+import ParseSwift
 
-@UIApplicationMain
+@main
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
 
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
+        
+        ParseSwift.initialize(applicationId: "VbylC3HelHy5qBoNg15jwVvrvYltSeJpV7EIaxim",
+                              clientKey: "BBQUWL9JXkAKhkoHIpZyNVlRQxZ82UsYkaDHLnzf",
+                              serverURL: URL(string: "https://parseapi.back4app.com")!)
+
+    
         
         /*
          This merge policy means that persistent Entities "win" if there's a conflict,
