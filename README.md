@@ -25,8 +25,8 @@ Scope: First, we require the users to enter their tasks, then return a random ta
 ### 1. User Stories (Required and Optional)
 
 **Required Must-have Stories**
-* User goes to login page and upon logging in go to the home page.
-* User navigates to the easy task page and clicks a button that triggers a random task to display. 
+* User goes to login page and upon logging in go to the home page.(DONE)
+* User navigates to the easy task page and clicks a button that triggers a random task to display. (DONE)
 * User navigates to the specific task page and inputs different tasks they want to accomplish. Then when they finish they get a random order of those tasks. 
 * User goes back to delegated task and is able to document whether they have completed it or not. 
 
@@ -37,10 +37,11 @@ Scope: First, we require the users to enter their tasks, then return a random ta
 *  User navigates to easy task page and picks certain tasks to Russian Roulette 
 *  User can make and save different specific task lists so they don't have to type all of the same specific tasks. User goes to a page of saves task lists. 
 *  User is met with a visualization or total count of all of the tasks they have completed, 
+
 ### 2. Screen Archetypes
 
 * Login Screen
-    * User is prompted to log-in or make an account, and upon either of those two, the homescreen is automatically rendered. 
+    * User is prompted to log-in or make an account, and upon either of those two, the homescreen is automatically rendered. (IN PROGRESS)
 * Home Screen 
    * This screen displays options to navigate to teh Random Task Screen, Specific Task Screen, or and Saved Tasked Screen. 
 * Random Task Screen
