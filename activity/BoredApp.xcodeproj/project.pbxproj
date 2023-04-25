@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		461926AD226D4AFB009D48F9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 461926AC226D4AFB009D48F9 /* AppDelegate.swift */; };
 		461926AF226D4AFB009D48F9 /* BoredActivityViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 461926AE226D4AFB009D48F9 /* BoredActivityViewController.swift */; };
 		461926B2226D4AFB009D48F9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 461926B0226D4AFB009D48F9 /* Main.storyboard */; };
 		461926B5226D4AFB009D48F9 /* BoredData.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 461926B3226D4AFB009D48F9 /* BoredData.xcdatamodeld */; };
@@ -26,6 +25,8 @@
 		7B09851229F65D170010D3C9 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B09851129F65D170010D3C9 /* LoginViewController.swift */; };
 		7B09851429F65D370010D3C9 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B09851329F65D370010D3C9 /* SignUpViewController.swift */; };
 		7B09851729F667540010D3C9 /* showAlert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B09851629F667540010D3C9 /* showAlert.swift */; };
+		7B09851B29F750300010D3C9 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B09851A29F750300010D3C9 /* SceneDelegate.swift */; };
+		7B09851D29F757CB0010D3C9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 461926AC226D4AFB009D48F9 /* AppDelegate.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -70,6 +71,7 @@
 		7B09851129F65D170010D3C9 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		7B09851329F65D370010D3C9 /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
 		7B09851629F667540010D3C9 /* showAlert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = showAlert.swift; sourceTree = "<group>"; };
+		7B09851A29F750300010D3C9 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -130,6 +132,7 @@
 				461926E3226DE325009D48F9 /* View */,
 				461926E0226D70A9009D48F9 /* Service */,
 				461926DD226D6E9A009D48F9 /* Data */,
+				7B09851A29F750300010D3C9 /* SceneDelegate.swift */,
 				461926AC226D4AFB009D48F9 /* AppDelegate.swift */,
 				461926B0226D4AFB009D48F9 /* Main.storyboard */,
 				461926B6226D4B06009D48F9 /* Assets.xcassets */,
@@ -355,8 +358,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				461926E7226DE54F009D48F9 /* ActivityService.swift in Sources */,
+				7B09851B29F750300010D3C9 /* SceneDelegate.swift in Sources */,
 				7B09850E29F644830010D3C9 /* user .swift in Sources */,
 				461926EA226E86C4009D48F9 /* BoredActivityTableViewController.swift in Sources */,
+				7B09851D29F757CB0010D3C9 /* AppDelegate.swift in Sources */,
 				461926B5226D4AFB009D48F9 /* BoredData.xcdatamodeld in Sources */,
 				46FBE9FB2277EFD400637044 /* BoredActivity+CoreDataClass.swift in Sources */,
 				461926E5226DE340009D48F9 /* ActivityError.swift in Sources */,
@@ -364,7 +369,6 @@
 				461926AF226D4AFB009D48F9 /* BoredActivityViewController.swift in Sources */,
 				46FBE9FC2277EFD400637044 /* BoredActivity+CoreDataProperties.swift in Sources */,
 				7B09851729F667540010D3C9 /* showAlert.swift in Sources */,
-				461926AD226D4AFB009D48F9 /* AppDelegate.swift in Sources */,
 				461926E2226DE271009D48F9 /* ActivityDelegate.swift in Sources */,
 				7B09851229F65D170010D3C9 /* LoginViewController.swift in Sources */,
 			);
